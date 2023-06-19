@@ -368,13 +368,14 @@ span {
   .project-container {
     grid-template-columns: 1fr;
     text-align: left;
+    padding: 24px;
   }
   .project-row {
     width: auto;
     padding: 20px;
   }
   .project-row img {
-    width: 180px;
+    width: 300px;
   }
   .project-row .btn {
     padding: 6px 16px;
@@ -400,5 +401,8 @@ span {
   }
   .bottom {
     width: auto;
+  }
+  section {
+    padding: 16px;
   }
 }
